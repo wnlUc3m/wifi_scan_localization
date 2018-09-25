@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+#header-opciones{
+	background: #190072;
+	color: white;
+	height: 60px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed;
+}
+
+#main-header a{
+	color: white;
+}
+
+#logo-header {
+	float: left;
+	padding: 9px 0 0 50px;
+	text-decoration: none;
+}
+
+
+#logo-header .nombre-sitio {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+		color: #DDE1F8;
+}
+	
+#logo-header .desc-sitio {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #DDE1F8;
+}
+
+nav {
+	float: right;
+	
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+	nav ul li {
+		display: inline-block;
+		line-height: 60px;
+	}
+			
+		nav ul li a {
+			display: block;
+			padding: 0 15px;
+			text-decoration: none;
+			color: #DDE1F8;
+		}
+			
+			nav ul li a:hover {
+				background: #0b76a6;
+			}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #434343;
+	background: #DEDDDD; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 60px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 20px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+#opcion-select {
+	width: 200px;
+	padding: 40px 30px;	
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin-left: 42.1%;
+	margin-top: 30.5%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
+
+.inicio-btn {	
+	background: #190072;
+	
+	display: inline-block;
+	width: 100%;
+	font-size: 16px;
+	height: 35px;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#leyenda{
+
+	padding-left:390px;
+	padding-top:10px;
+	width:900px;
+        height:80px;
+
+}
