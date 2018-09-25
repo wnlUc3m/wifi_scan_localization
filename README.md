@@ -4,4 +4,4 @@
 #
 # This code has been used for the realization of the TFG
 #
-#
+# This code is released under the AGPLv3 license. Read more about AGPLv3.
